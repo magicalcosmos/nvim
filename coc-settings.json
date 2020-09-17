@@ -70,7 +70,7 @@
 	"prettier.formatterPriority": 1,
 	"typescript.suggestionActions.enabled": true,
 	"typescript.format.enabled": true,
-	"explorer.position": "right"
+	"explorer.position": "right",
 	"explorer.width": 38,
 	"explorer.quitOnOpen": true,
 	"explorer.sources": [

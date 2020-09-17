@@ -24,7 +24,6 @@ let g:coc_global_extensions = [
 	\ 'coc-tslint-plugin',
 	\ 'coc-tsserver',
 	\ 'coc-rome',
-	\ 'coc-vetur',
 	\ 'coc-vimlsp',
 	\ 'coc-yaml',
 	\ 'coc-yank']

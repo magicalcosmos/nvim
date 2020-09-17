@@ -7,7 +7,7 @@ let g:coc_global_extensions = [
 	\ 'coc-diagnostic',
 	\ 'coc-explorer',
 	\ 'coc-flutter-tools',
-	\ 'coc-gitignore',
+	\ 'coc-git',
 	\ 'coc-html',
 	\ 'coc-json',
 	\ 'coc-lists',
@@ -23,6 +23,8 @@ let g:coc_global_extensions = [
 	\ 'coc-translator',
 	\ 'coc-tslint-plugin',
 	\ 'coc-tsserver',
+	\ 'coc-rome',
+	\ 'coc-vetur',
 	\ 'coc-vimlsp',
 	\ 'coc-yaml',
 	\ 'coc-yank']

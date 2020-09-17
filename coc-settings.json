@@ -15,6 +15,7 @@
 	"suggest.snippetIndicator": "",
 	"suggest.triggerCompletionWait": 100,
 	"suggest.echodocSupport": true,
+	"snippets.autoTrigger": true,
 	"suggest.completionItemKindLabels": {
 		"class": "\uf0e8",
 		"color": "\ue22b",
@@ -58,12 +59,7 @@
 	"list.previewHighlightGroup": "Statement",
 	"list.nextKeymap": "<C-e>",
 	"list.previousKeymap": "<C-u>",
-	"snippets.userSnippetsDirectory": ["~/.config/nvim/snips"],
-	"snippets.ultisnips.directories": [
- 	  "UltiSnips",
-  	  "gosnippets/UltiSnips",
-  	  "~/.config/nvim/snips"
-	],
+	"snippets.ultisnips.directories": ["UltiSnips", "~/.config/nvim/snips"],
 	"coc.preferences.formatOnSaveFiletypes": ["typescript", "html", "css", "json", "python"],
 	"yaml.format.enable": true,
 	"signature.target": "float",
@@ -150,6 +146,10 @@
 		"--style",
 		"{SPACES_AROUND_POWER_OPERATOR: True, SPACES_BEFORE_COMMENT: 1}"
 	],
+	"emmet.includeLanguages": {
+		"vue-html": "html",
+		"javascript": "javascriptreact"
+	},
 	"html.format.enable": true,
 	"javascript.referencesCodeLens.enable": true,
 	"javascript.showUnused": true,

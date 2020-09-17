@@ -72,6 +72,7 @@ endif
 
 
 source $HOME/.config/nvim/keymap/index.vim
+source $HOME/.config/nvim/vim-plug.vim
 source $HOME/.config/nvim/plugin/index.vim
 " ===
 " === Necessary Commands to Execute

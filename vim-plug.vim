@@ -22,6 +22,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'kevinhwang91/rnvimr'
     Plug 'airblade/vim-rooter'
     Plug 'pechorin/any-jump.vim'
+
     " Theme
     Plug 'morhetz/gruvbox'
     Plug 'dracula/vim', { 'as': 'dracula' }
@@ -29,7 +30,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Taglist
     Plug 'liuchengxu/vista.vim'
 
-
+    " Interactive code
+    Plug 'metakirby5/codi.vim'
 
     " Lean & mean status/tabline for vim that's light as air.
     Plug 'vim-airline/vim-airline'
@@ -37,8 +39,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Stable version of coc
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'wellle/tmux-complete.vim'
-    " Undo Tree
 
+    " Undo Tree
     Plug 'mbbill/undotree'
 
     " CSharp
@@ -57,12 +59,25 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'brooth/far.vim', { 'on': ['F', 'Far', 'Fardo'] }
     Plug 'tpope/vim-commentary'
     Plug 'mhinz/vim-startify'
-    Plug 'justinmk/vim-sneak'
-    Plug 'honza/vim-snippets'
-    Plug 'unblevable/quick-scope'
-    Plug 'liuchengxu/vim-which-key'
+
+    " Git
     Plug 'mhinz/vim-signify'
     Plug 'tpope/vim-fugitive'
     Plug 'tpope/vim-rhubarb'
     Plug 'junegunn/gv.vim'
+
+    " Snippets
+    Plug 'honza/vim-snippets'
+    Plug 'mattn/emmet-vim'
+
+    " Auto change html tags
+    Plug 'AndrewRadev/tagalong.vim'
+
 call plug#end()
+
+
+" Automatically install missing plugins on startup
+autocmd VimEnter *
+  \  if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
+  \|   PlugInstall --sync | q
+  \| endif

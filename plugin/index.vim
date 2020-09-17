@@ -1,4 +1,3 @@
-source $HOME/.config/nvim/plugin/vim-plug.vim
 source $HOME/.config/nvim/plugin/theme.vim
 source $HOME/.config/nvim/plugin/floaterm.vim
 source $HOME/.config/nvim/plugin/coc.vim
@@ -17,3 +16,4 @@ source $HOME/.config/nvim/plugin/vim-calendar.vim
 source $HOME/.config/nvim/plugin/vim-commentary.vim
 source $HOME/.config/nvim/plugin/quickscope.vim
 source $HOME/.config/nvim/plugin/snippet.vim
+source $HOME/.config/nvim/plugin/tagalong.vim

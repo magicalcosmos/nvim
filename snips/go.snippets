@@ -1,22 +1,22 @@
-snippet checke "Check Error"
+snippet checke "Check Error" br
 if err != nil {
 	return err
 }
 ${0}
 endsnippet
 
-snippet ie "Check Error"
+snippet ie "Check Error" br
 if err != nil {
 	panic(err)
 }
 ${0}
 endsnippet
 
-snippet st "Println"
+snippet st "Println" br
 fmt.Println(${1})${0}
 endsnippet
 
-snippet start "Starting code"
+snippet start "Starting code" br
 package main
 
 import (
@@ -28,8 +28,6 @@ func main() {
 }
 endsnippet
 
-snippet cq "Current Question"
+snippet cq "Current Question" br
 app.result.questions[app.curResultIndex]${0}
 endsnippet
-
-
